@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ACACAC;
+	font-family: 'Gayathri', sans-serif;
+}
+header {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.container {
+	text-align: center;
+	width: 990px;
+}
+#titulo {
+	margin-top: 50px;
+}
+#menu ul li {
+	display: inline-block;
+	background-color: #24292e;
+	padding: 10px;
+	margin: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 5px;
+}
+a {
+	text-decoration: none;
+}
+#menu li:hover {
+	display: inline-block;
+	background-color: #FFFFFF;
+
+	color: #24292e;
+	box-shadow: 2px 2px 40px #24292e;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #24292e
+}
+.imagem {
+	padding: 30px;
+	border:2px solid #24292e;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 40px #24292e;
+}
+.imagem img {
+	border: px solid #24292e;
+}
+#leg {
+	text-align: center;
+	margin-top: 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+#texto {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+section .img {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+}
+.img img {
+	flex:1;
+	box-shadow: 1px 1px 40px #24292e;
+	border: 2px solid #24292e;
+	border-radius: 50%;
+}
+table {
+	align-items: center;
+	text-align: justify;
+}
+.img #leg {
+	font-size: 15px;
+	text-align: center;
+}
+#trabalhos a {
+	text-decoration: none;
+	color: #24292e;
+	text-shadow: 1px 1px 10px #FFFF00;
+}
+#trabalhos a:hover {
+	color: #FFFFFF;
+}
+#conquistas td {
+	margin-top: 50px;
+	align-items: center;
+}
+#oscar {
+	width: 295px;
+	height: 406px;
+	border-radius: 20px;
+	background-image: url('../img/oscar.png');
+	box-shadow: 2px 2px 30px #24292e;
+}
+#conquistas ul {
+	display: inline-block;
+	list-style-type: circle;
+}
+#globo {
+	box-sizing: content-box;
+	background-image: url('../img/globo.png');
+	background-color: #FFFF00;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px #24292e;
+}
+#conquistas a {
+	text-decoration: none;
+	color: #24292e;
+	text-shadow: 1px 1px 10px #FFFF00;
+}
+#conquistas a:hover {
+	color: #FFFFFF;
+}
+.container #mais {
+	margin-top: 150px;
+	text-align: start;
+	margin-bottom: 50px;
+}
+.container #mais a {
+	text-decoration: none;
+	color: #24292e;
+	text-shadow: 1px 1px 10px #FFFF00;
+}
+.container #mais a:hover {
+	color: #FFFFFF;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	padding: 50px;
+	background-color: #24292e;
+	color: #ACACAC;
+	text-align: center;
+	align-items: center;	
+}
+#redessociais div {
+	display: inline-block;
+	padding: 25px;
+}
+
+#github {
+	transform: scale(0.7); 
+}
